@@ -43,6 +43,7 @@ func (this *Words) Init(path string) {
 		if err != nil {
 			logs.Warn(path, ":", err)
 		}
+
 		content, err := ioutil.ReadAll(f)
 		logs.Info(path+v.Name(), "end")
 

@@ -21,7 +21,7 @@ func Init() {
 
 		logs.Info("%s:file does not exist", path)
 		os.MkdirAll(path, os.ModePerm)
-		logs.Info("%s:file does not exist", path)
+		logs.Info("%s:make file", path)
 	}
 
 	//Initialize the word library
