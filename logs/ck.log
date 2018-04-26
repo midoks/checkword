@@ -1,0 +1,304 @@
+2018/04/26 10:08:00.419 [libs.go:20] this is a message of http
+2018/04/26 10:08:00.419 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:08:00.419 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:08:00.419 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:08:00.419 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:08:00.419 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:08:00.419 [C] [main.go:10] oh,crash
+2018/04/26 10:08:00.419 [words.go:28] func (this *Words) add()
+2018/04/26 10:08:00.429 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:34:04.975 [libs.go:21] this is a message of http
+2018/04/26 10:34:04.976 [libs.go:23] [ORM] this is a message of orm
+2018/04/26 10:34:04.976 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:34:04.976 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:34:04.976 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:34:04.976 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:34:04.976 [C] [main.go:10] oh,crash
+2018/04/26 10:34:04.976 [I] [main.go:10] path:
+2018/04/26 10:34:04.976 [words.go:28] func (this *Words) add()
+2018/04/26 10:34:04.992 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:35:03.943 [libs.go:21] this is a message of http
+2018/04/26 10:35:03.944 [libs.go:23] [ORM] this is a message of orm
+2018/04/26 10:35:03.944 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:35:03.944 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:35:03.944 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:35:03.944 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:35:03.944 [C] [main.go:10] oh,crash
+2018/04/26 10:35:03.944 [I] [libs.go:31] ./checkword
+2018/04/26 10:35:03.944 [I] [main.go:10] path:
+2018/04/26 10:35:03.944 [words.go:28] func (this *Words) add()
+2018/04/26 10:35:03.953 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:35:31.618 [libs.go:22] this is a message of http
+2018/04/26 10:35:31.618 [libs.go:24] [ORM] this is a message of orm
+2018/04/26 10:35:31.618 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:35:31.618 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:35:31.618 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:35:31.618 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:35:31.618 [C] [main.go:10] oh,crash
+2018/04/26 10:35:31.618 [I] [libs.go:32] ./checkword
+2018/04/26 10:35:31.618 [I] [main.go:10] path:
+2018/04/26 10:35:31.618 [words.go:28] func (this *Words) add()
+2018/04/26 10:35:31.625 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:46:00.674 [libs.go:21] this is a message of http
+2018/04/26 10:46:00.675 [libs.go:23] [ORM] this is a message of orm
+2018/04/26 10:46:00.675 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:46:00.675 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:46:00.675 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:46:00.675 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:46:00.675 [C] [main.go:10] oh,crash
+2018/04/26 10:46:00.675 [I] [libs.go:31] ./checkword
+2018/04/26 10:46:00.675 [I] [main.go:10] path:
+2018/04/26 10:46:00.675 [words.go:28] func (this *Words) add()
+2018/04/26 10:46:00.686 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:46:04.118 [libs.go:20] this is a message of http
+2018/04/26 10:46:04.118 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:46:04.118 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:46:04.118 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:46:04.118 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:46:04.118 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:46:04.118 [C] [main.go:10] oh,crash
+2018/04/26 10:46:04.118 [I] [libs.go:30] ./checkword
+2018/04/26 10:46:04.118 [I] [main.go:10] path:
+2018/04/26 10:46:04.118 [words.go:28] func (this *Words) add()
+2018/04/26 10:46:04.126 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:46:08.666 [libs.go:20] this is a message of http
+2018/04/26 10:46:08.666 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:46:08.666 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:46:08.666 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:46:08.666 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:46:08.666 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:46:08.666 [C] [main.go:10] oh,crash
+2018/04/26 10:46:08.666 [I] [libs.go:30] ./checkword
+2018/04/26 10:46:08.666 [I] [main.go:10] path:
+2018/04/26 10:46:08.666 [words.go:28] func (this *Words) add()
+2018/04/26 10:46:08.683 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:46:11.286 [libs.go:20] this is a message of http
+2018/04/26 10:46:11.286 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:46:11.286 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:46:11.286 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:46:11.286 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:46:11.286 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:46:11.286 [C] [main.go:10] oh,crash
+2018/04/26 10:46:11.286 [I] [libs.go:30] ./checkword
+2018/04/26 10:46:11.286 [I] [main.go:10] path:
+2018/04/26 10:46:11.286 [words.go:28] func (this *Words) add()
+2018/04/26 10:46:11.294 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:46:42.522 [libs.go:20] this is a message of http
+2018/04/26 10:46:42.522 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:46:42.522 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:46:42.523 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:46:42.523 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:46:42.523 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:46:42.523 [C] [main.go:10] oh,crash
+2018/04/26 10:46:42.523 [C] [libs.go:30] ./checkword
+2018/04/26 10:46:42.523 [I] [main.go:10] path:
+2018/04/26 10:46:42.523 [words.go:28] func (this *Words) add()
+2018/04/26 10:46:42.536 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:47:04.073 [libs.go:20] this is a message of http
+2018/04/26 10:47:04.074 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:47:04.074 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:47:04.074 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:47:04.074 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:47:04.074 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:47:04.074 [C] [main.go:10] oh,crash
+2018/04/26 10:47:04.074 [C] [libs.go:30] ./checkword
+2018/04/26 10:47:04.074 [I] [main.go:10] path:
+2018/04/26 10:47:04.074 [words.go:28] func (this *Words) add()
+2018/04/26 10:47:04.092 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:47:06.722 [libs.go:20] this is a message of http
+2018/04/26 10:47:06.722 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:47:06.722 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:47:06.722 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:47:06.722 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:47:06.722 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:47:06.722 [C] [main.go:10] oh,crash
+2018/04/26 10:47:06.723 [C] [libs.go:30] ./checkword
+2018/04/26 10:47:06.723 [I] [main.go:10] path:
+2018/04/26 10:47:06.723 [words.go:28] func (this *Words) add()
+2018/04/26 10:47:06.730 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:47:10.462 [libs.go:20] this is a message of http
+2018/04/26 10:47:10.462 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:47:10.463 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:47:10.463 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:47:10.463 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:47:10.463 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:47:10.463 [C] [main.go:10] oh,crash
+2018/04/26 10:47:10.463 [C] [libs.go:30] 
+2018/04/26 10:47:10.463 [I] [main.go:10] path:
+2018/04/26 10:47:10.463 [words.go:28] func (this *Words) add()
+2018/04/26 10:47:10.473 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:47:31.146 [libs.go:20] this is a message of http
+2018/04/26 10:47:31.146 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:47:31.147 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:47:31.147 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:47:31.147 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:47:31.147 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:47:31.147 [C] [main.go:10] oh,crash
+2018/04/26 10:47:31.147 [W] [libs.go:30] 
+2018/04/26 10:47:31.147 [I] [main.go:10] path:
+2018/04/26 10:47:31.147 [words.go:28] func (this *Words) add()
+2018/04/26 10:47:31.165 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:47:33.666 [libs.go:20] this is a message of http
+2018/04/26 10:47:33.666 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:47:33.666 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:47:33.666 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:47:33.666 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:47:33.666 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:47:33.666 [C] [main.go:10] oh,crash
+2018/04/26 10:47:33.666 [W] [libs.go:30] 
+2018/04/26 10:47:33.666 [I] [main.go:10] path:
+2018/04/26 10:47:33.666 [words.go:28] func (this *Words) add()
+2018/04/26 10:47:33.676 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:47:45.081 [libs.go:20] this is a message of http
+2018/04/26 10:47:45.081 [libs.go:22] [ORM] this is a message of orm
+2018/04/26 10:47:45.081 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:47:45.081 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:47:45.082 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:47:45.082 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:47:45.082 [C] [main.go:10] oh,crash
+2018/04/26 10:47:45.082 [W] [libs.go:30] ./checkword
+2018/04/26 10:47:45.082 [I] [main.go:10] path:
+2018/04/26 10:47:45.082 [words.go:28] func (this *Words) add()
+2018/04/26 10:47:45.102 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:48:20.879 [libs.go:19] this is a message of http
+2018/04/26 10:48:20.879 [libs.go:21] [ORM] this is a message of orm
+2018/04/26 10:48:20.880 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:48:20.880 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:48:20.880 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:48:20.880 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:48:20.880 [C] [main.go:10] oh,crash
+2018/04/26 10:48:20.880 [W] [libs.go:29] ./checkword
+2018/04/26 10:48:20.880 [I] [main.go:10] path:
+2018/04/26 10:48:20.880 [words.go:28] func (this *Words) add()
+2018/04/26 10:48:20.896 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:48:23.877 [libs.go:19] this is a message of http
+2018/04/26 10:48:23.877 [libs.go:21] [ORM] this is a message of orm
+2018/04/26 10:48:23.877 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:48:23.877 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:48:23.877 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:48:23.877 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:48:23.877 [C] [main.go:10] oh,crash
+2018/04/26 10:48:23.877 [W] [libs.go:29] ./checkword
+2018/04/26 10:48:23.877 [I] [main.go:10] path:
+2018/04/26 10:48:23.877 [words.go:28] func (this *Words) add()
+2018/04/26 10:48:23.887 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:51:21.913 [libs.go:19] this is a message of http
+2018/04/26 10:51:21.913 [libs.go:21] [ORM] this is a message of orm
+2018/04/26 10:51:21.913 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:51:21.913 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:51:21.913 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:51:21.913 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:51:21.913 [C] [main.go:10] oh,crash
+2018/04/26 10:51:21.913 [W] [libs.go:29] ./checkword
+2018/04/26 10:51:21.913 [I] [main.go:10] path:
+2018/04/26 10:51:21.913 [words.go:28] func (this *Words) add()
+2018/04/26 10:51:21.924 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:54:24.798 [libs.go:19] this is a message of http
+2018/04/26 10:54:24.800 [libs.go:21] [ORM] this is a message of orm
+2018/04/26 10:54:24.800 [D] [main.go:10] my book is bought in the year of  2016
+2018/04/26 10:54:24.800 [I] [main.go:10] this yellow cat is 3 years old
+2018/04/26 10:54:24.800 [W] [main.go:10] json is a type of kv like map[key:2016]
+2018/04/26 10:54:24.800 [E] [main.go:10] 1024 is a very good game
+2018/04/26 10:54:24.800 [C] [main.go:10] oh,crash
+2018/04/26 10:54:24.800 [W] [main.go:10] args: [./checkword]
+2018/04/26 10:54:24.800 [W] [libs.go:30] ./checkword
+2018/04/26 10:54:24.800 [I] [main.go:10] path:
+2018/04/26 10:54:24.800 [words.go:28] func (this *Words) add()
+2018/04/26 10:54:24.820 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 10:59:28.670 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 10:59:28.670 [W] [main.go:10] args: [./checkword]
+2018/04/26 10:59:28.670 [W] [libs.go:31] ./checkword
+2018/04/26 10:59:28.670 [I] [main.go:10] path:
+2018/04/26 10:59:28.670 [words.go:28] func (this *Words) add()
+2018/04/26 10:59:28.681 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:00:50.566 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:00:50.566 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:00:50.566 [words.go:28] func (this *Words) add()
+2018/04/26 11:00:50.581 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:01:00.030 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:01:00.030 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:01:00.030 [words.go:28] func (this *Words) add()
+2018/04/26 11:01:00.044 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:04:51.583 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:04:51.584 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:04:51.585 [words.go:28] func (this *Words) add()
+2018/04/26 11:04:51.605 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:04:53.254 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:04:53.254 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:04:53.254 [words.go:28] func (this *Words) add()
+2018/04/26 11:04:53.263 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:06:12.028 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:06:12.029 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:06:12.029 [words.go:27] func (this *Words) add()
+2018/04/26 11:06:12.045 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:06:13.770 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:06:13.770 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:06:13.770 [words.go:27] func (this *Words) add()
+2018/04/26 11:06:13.779 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:06:40.285 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:06:40.286 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:06:40.286 [words.go:31] func (this *Words) add()
+2018/04/26 11:06:40.298 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:06:54.980 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:06:54.980 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:06:54.980 [words.go:31] func (this *Words) add()
+2018/04/26 11:06:54.993 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:07:13.542 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:07:13.543 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:07:13.543 [words.go:31] func (this *Words) add()
+2018/04/26 11:07:13.557 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:07:23.109 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:07:23.109 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:07:23.109 [words.go:31] func (this *Words) add()
+2018/04/26 11:07:23.119 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:07:28.087 [W] [main.go:10] argdds: /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:07:28.087 [W] [main.go:10] args: [./checkword]
+2018/04/26 11:07:28.087 [words.go:31] func (this *Words) add()
+2018/04/26 11:07:28.094 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:08:05.445 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:08:06.989 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:11:09.708 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword
+2018/04/26 11:11:09.718 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:12:39.874 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword/word/
+2018/04/26 11:12:39.889 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:17:43.558 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword/word/
+2018/04/26 11:17:43.568 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:32:10.408 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword/word/
+2018/04/26 11:32:10.418 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 11:32:38.318 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword/word/
+2018/04/26 11:32:38.330 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:19:27.964 [I] [libs.go:32] /Users/midoks/go/src/github.com/midoks/checkword/word/
+2018/04/26 12:19:27.976 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:19:49.902 [I] [libs.go:32] /Users/midoks/go/src/github.com/midoks/checkword/word/
+2018/04/26 12:19:49.913 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:20:27.361 [I] [main.go:10] /Users/midoks/go/src/github.com/midoks/checkword/words/:file does not exist
+2018/04/26 12:20:27.361 [I] [libs.go:32] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:20:27.376 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:22:26.533 [I] [main.go:10] /Users/midoks/go/src/github.com/midoks/checkword/words/:file does not exist
+2018/04/26 12:22:26.534 [I] [libs.go:34] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:22:26.550 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:22:57.772 [I] [main.go:10] /Users/midoks/go/src/github.com/midoks/checkword/words/:file does not exist
+2018/04/26 12:22:57.773 [I] [libs.go:34] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:22:57.783 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:31:27.095 [I] [main.go:10] /Users/midoks/go/src/github.com/midoks/checkword/words/:file does not exist
+2018/04/26 12:31:27.095 [I] [main.go:10] /Users/midoks/go/src/github.com/midoks/checkword/words/:file does not exist
+2018/04/26 12:31:27.095 [I] [libs.go:35] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:31:27.108 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:31:30.734 [I] [libs.go:35] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:31:30.743 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:33:03.590 [I] [libs.go:35] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:33:03.601 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:50:16.445 [I] [libs.go:35] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:50:16.461 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:50:19.227 [I] [libs.go:35] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:50:19.238 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 12:50:20.841 [I] [libs.go:35] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 12:50:20.848 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 13:39:28.617 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 13:39:28.628 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 16:41:21.151 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 16:41:21.163 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 16:41:33.675 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 16:41:33.691 [I] [asm_amd64.s:2337] http server Running on http://:8585
+2018/04/26 16:41:35.590 [I] [libs.go:28] /Users/midoks/go/src/github.com/midoks/checkword/words/
+2018/04/26 16:41:35.612 [I] [asm_amd64.s:2337] http server Running on http://:8585
