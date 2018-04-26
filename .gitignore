@@ -5,6 +5,7 @@
 *.dylib
 *.log
 logs/*.log
+checkword
 
 # Test binary, build with `go test -c`
 *.test
