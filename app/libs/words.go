@@ -20,6 +20,7 @@ type Words struct {
 
 func (this *Words) Init(path string) {
 	// os.
+
 	logs.Info(path)
 }
 
