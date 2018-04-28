@@ -1,10 +1,12 @@
 package routers
 
 import (
-	"github.com/midoks/checkword/app/controllers"
 	"github.com/astaxie/beego"
+	"github.com/midoks/checkword/app/controllers"
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
+
+	ns := beego.NewNamespace("/v1", beego.NSAutoRouter(&controllers.IndexController{}))
+	beego.AddNamespace(ns)
 }

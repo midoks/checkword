@@ -1,13 +1,12 @@
 package main
 
 import (
-	_ "github.com/midoks/checkword/app/routers"
-	"github.com/midoks/checkword/app/libs"
 	"github.com/astaxie/beego"
+	"github.com/midoks/checkword/app/libs"
+	_ "github.com/midoks/checkword/app/routers"
 )
 
 func main() {
 	libs.Init()
 	beego.Run()
 }
-

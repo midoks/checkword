@@ -1,7 +1,7 @@
 package libs
 
 import (
-	"fmt"
+	// "fmt"
 	"github.com/astaxie/beego/logs"
 	"os"
 	"os/exec"
@@ -29,10 +29,13 @@ func Init() {
 	senWord.Init(path)
 
 	logs.Info("find start")
-	s := senWord.Find("在十九世纪，学系号,嘘唏不已欧洲")
-
-	fmt.Println(s)
+	s := senWord.Find("测试文本:在十九世纪，学系号,嘘唏不已欧洲,指纹套")
+	logs.Info("r:", s)
 	logs.Info("find end")
+}
+
+func FindWord(text string) []string {
+	return senWord.Find(text)
 }
 
 func getCurrentPath() string {

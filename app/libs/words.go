@@ -45,9 +45,11 @@ func (this *Words) Init(path string) {
 		// logs.Info("end")
 
 		contentStr := strings.Trim(string(content), "*")
+		contentStr = strings.Replace(contentStr, "\r\n", "\n", -1)
 
 		a := strings.Split(contentStr, "\n")
 
+		logs.Warn(a)
 		for i := 0; i < len(a); i++ {
 			// fmt.Println(strings.Trim(a[i], "*"), "-----------|")
 			this.Add(strings.Trim(a[i], "*"))
@@ -58,32 +60,38 @@ func (this *Words) Init(path string) {
 
 func (this *Words) Add(word string) {
 	wRune := []rune(word)
-
-	nowNode := this.root
 	wlen := len(wRune)
 
+	nowNode := this.root
 	for i, thisWord := range wRune {
 
 		tmpStr := string(thisWord)
-
 		thisNode, ok := nowNode[tmpStr]
 
 		if ok {
+
+			if wlen-1 == i {
+				thisNode.(map[string]interface{})["status"] = NODE_END
+			}
 
 			nowNode = thisNode.(map[string]interface{})
 		} else {
 
 			newNode := make(map[string]interface{})
-			newNode["end"] = false
 			nowNode[tmpStr] = newNode
+
+			if wlen-1 == i {
+				newNode["status"] = NODE_END
+			} else if i == 0 {
+				newNode["status"] = NODE_START
+			} else {
+				newNode["status"] = NODE_MID
+			}
 
 			nowNode = newNode
 		}
-
-		if i == (wlen - 1) {
-			nowNode["end"] = true
-		}
 	}
+	logs.Info("root:", this.root)
 }
 
 func (this *Words) Find(str string) []string {
@@ -95,47 +103,32 @@ func (this *Words) Find(str string) []string {
 
 	nowNode := this.root
 
-	fmt.Println(nowNode)
-
 	for i := 0; i < llen; i++ {
+
 		tmpWord := string(r[i])
-		thisNode, ok := nowNode[tmpWord]
+		if thisNode, ok := nowNode[tmpWord]; ok {
 
-		fmt.Println(thisNode)
+			ss = ss + tmpWord
+			nowNode = thisNode.(map[string]interface{})
 
-		if ok {
-			tmpNode := thisNode.(map[string]interface{})
-			if tmpNode["end"].(bool) {
-
-				if i+1 <= llen {
-					tmp2 := string(r[i+1])
-					thisNode2, ok2 := tmpNode[tmp2]
-					fmt.Println("ee start:", tmp2, thisNode2)
-
-					if ok2 {
-
-						tmpNode2 := thisNode2.(map[string]interface{})
-						if tmpNode2["end"].(bool) {
-							continue
-						}
+			if i == llen-1 {
+				if thisNodeStatus, ok := nowNode["status"]; ok {
+					if thisNodeStatus == NODE_END {
+						result = append(result, ss)
 					}
-					fmt.Println("ee end:", tmp2)
-
 				}
-
-				ss = ss + tmpWord
-				result = append(result, ss)
-				ss = ""
-				nowNode = this.root
-			} else {
-				ss = ss + tmpWord
-				nowNode = tmpNode
 			}
 		} else {
 
 			if len([]rune(ss)) >= 1 {
 				i--
+				if thisNodeStatus, ok := nowNode["status"]; ok {
+					if thisNodeStatus == NODE_END {
+						result = append(result, ss)
+					}
+				}
 			}
+
 			ss = ""
 			nowNode = this.root
 		}

@@ -1,8 +1,10 @@
 package controllers
 
 import (
+	"fmt"
 	"github.com/astaxie/beego"
 	"strings"
+	"time"
 )
 
 const (
@@ -12,6 +14,11 @@ const (
 
 type CommonController struct {
 	beego.Controller
+	RequestTime time.Time
+}
+
+func (this *CommonController) Prepare() {
+	this.startRecTimes()
 }
 
 // 是否POST提交
@@ -35,6 +42,7 @@ func (this *CommonController) retResult(code int, msg interface{}, data ...inter
 	out := make(map[string]interface{})
 	out["code"] = code
 	out["msg"] = msg
+	out["time"] = this.CalcLoadTimes()
 
 	if len(data) > 0 {
 		out["data"] = data
@@ -48,8 +56,17 @@ func (this *CommonController) D(args ...string) {
 		for i := 0; i < len(args); i++ {
 			this.Ctx.WriteString(args[i])
 		}
-		//this.StopRun()
+		this.StopRun()
 	}
+}
+
+func (this *CommonController) startRecTimes() time.Time {
+	this.RequestTime = time.Now()
+	return this.RequestTime
+}
+
+func (this *CommonController) CalcLoadTimes() string {
+	return fmt.Sprintf("%dms", (time.Now().Sub(this.RequestTime).Nanoseconds() / 1e6))
 }
 
 // 输出json
