@@ -33,7 +33,6 @@ func (this *Words) Init(path string) {
 			continue
 		}
 
-		// logs.Info("reading")
 		f, err := os.Open(path + v.Name())
 		defer f.Close()
 
@@ -42,16 +41,14 @@ func (this *Words) Init(path string) {
 		}
 
 		content, err := ioutil.ReadAll(f)
-		// logs.Info("end")
 
 		contentStr := strings.Trim(string(content), "*")
 		contentStr = strings.Replace(contentStr, "\r\n", "\n", -1)
 
 		a := strings.Split(contentStr, "\n")
 
-		logs.Warn(a)
+		// logs.Warn(a)
 		for i := 0; i < len(a); i++ {
-			// fmt.Println(strings.Trim(a[i], "*"), "-----------|")
 			this.Add(strings.Trim(a[i], "*"))
 		}
 	}
@@ -91,7 +88,7 @@ func (this *Words) Add(word string) {
 			nowNode = newNode
 		}
 	}
-	logs.Info("root:", this.root)
+	// logs.Info("root:", this.root)
 }
 
 func (this *Words) Find(str string) []string {
