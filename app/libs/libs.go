@@ -18,7 +18,7 @@ func Init() {
 	logs.SetLogger("file", `{"filename":"logs/ck.log"}`)
 
 	path, _ := os.Getwd()
-	path = path + "/words/"
+	path = path + "/" + beego.AppConfig.String("word_dir") + "/"
 	if _, err := os.Stat(path); os.IsNotExist(err) {
 
 		logs.Info("%s:file does not exist", path)
