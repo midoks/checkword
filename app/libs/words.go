@@ -1,12 +1,9 @@
 package libs
 
 import (
-	// "bytes"
-	"fmt"
-	"os"
-	// "math"
 	"github.com/astaxie/beego/logs"
 	"io/ioutil"
+	"os"
 	"strings"
 )
 
