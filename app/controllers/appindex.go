@@ -62,7 +62,7 @@ func (this *IndexController) Check() {
 			if c == 0 {
 				this.retResult(0, "没有敏感词!")
 			} else {
-				this.retResult(1, RemoveDuplicatesAndEmpty(r))
+				this.retResult(1, r)
 			}
 		}
 

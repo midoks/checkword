@@ -17,16 +17,15 @@ const (
 )
 
 type Words struct {
-	root map[string]interface{}
+	root   map[string]interface{}
+	reRoot map[string]interface{}
 }
 
-func (this *Words) Init(path string) {
-
-	this.root = make(map[string]interface{})
+func (this *Words) InitCommon(path string) {
 
 	dir_list, _ := ioutil.ReadDir(path)
 
-	logs.Info("begin create")
+	logs.Info("build begin")
 	for _, v := range dir_list {
 
 		if v.Name()[0:1] == "." {
@@ -47,19 +46,61 @@ func (this *Words) Init(path string) {
 
 		a := strings.Split(contentStr, "\n")
 
-		// logs.Warn(a)
 		for i := 0; i < len(a); i++ {
 			this.Add(strings.Trim(a[i], "*"))
 		}
 	}
-	logs.Info("end create")
+	logs.Info("build end")
 }
 
-func (this *Words) Add(word string) {
+func (this *Words) Init(path string) {
+
+	this.root = make(map[string]interface{})
+
+	this.InitCommon(path)
+}
+
+func (this *Words) ReInit(path string) {
+	this.reRoot = make(map[string]interface{})
+
+	dir_list, _ := ioutil.ReadDir(path)
+
+	logs.Info("rebuild begin")
+	for _, v := range dir_list {
+
+		if v.Name()[0:1] == "." {
+			continue
+		}
+
+		f, err := os.Open(path + v.Name())
+		defer f.Close()
+
+		if err != nil {
+			logs.Warn(path, ":", err)
+		}
+
+		content, err := ioutil.ReadAll(f)
+
+		contentStr := strings.Trim(string(content), "*")
+		contentStr = strings.Replace(contentStr, "\r\n", "\n", -1)
+
+		a := strings.Split(contentStr, "\n")
+
+		for i := 0; i < len(a); i++ {
+			this.ReAdd(strings.Trim(a[i], "*"))
+		}
+	}
+	logs.Info("rebuild end")
+
+	this.root = this.reRoot
+	this.reRoot = make(map[string]interface{})
+}
+
+func (this *Words) AddCommon(word string, nowNode map[string]interface{}) {
 	wRune := []rune(word)
 	wlen := len(wRune)
 
-	nowNode := this.root
+	// nowNode := this.root
 	for i, thisWord := range wRune {
 
 		tmpStr := string(thisWord)
@@ -88,7 +129,14 @@ func (this *Words) Add(word string) {
 			nowNode = newNode
 		}
 	}
-	// logs.Info("root:", this.root)
+}
+
+func (this *Words) ReAdd(word string) {
+	this.AddCommon(word, this.reRoot)
+}
+
+func (this *Words) Add(word string) {
+	this.AddCommon(word, this.root)
 }
 
 func (this *Words) Find(str string) []string {
@@ -99,6 +147,7 @@ func (this *Words) Find(str string) []string {
 	var result []string
 
 	nowNode := this.root
+	// logs.Warn(this.root)
 
 	for i := 0; i < llen; i++ {
 
