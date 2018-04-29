@@ -181,11 +181,3 @@ func (this *Words) Find(str string) []string {
 	}
 	return result
 }
-
-func (this *Words) Del(str string) {
-
-}
-
-func (this *Words) Update() {
-	fmt.Println(123)
-}
