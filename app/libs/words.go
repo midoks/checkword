@@ -133,7 +133,7 @@ func (this *Words) Find(str string) []string {
 	return result
 }
 
-func (this *Words) Del() {
+func (this *Words) Del(str string) {
 
 }
 
