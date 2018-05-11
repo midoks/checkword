@@ -1,4 +1,4 @@
 language: go
+go_import_path: github.com/astaxie/beego
 go:
-  - "1.10"
-  - master
+  - "master"
