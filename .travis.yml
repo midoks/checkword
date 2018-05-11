@@ -1,4 +1,8 @@
 language: go
-go_import_path: github.com/astaxie/beego
+
 go:
   - "master"
+
+
+install:
+  - go get github.com/astaxie/beego
