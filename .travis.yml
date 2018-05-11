@@ -7,3 +7,4 @@ go:
 install:
   - go get github.com/astaxie/beego
   - go get github.com/fsnotify/fsnotify
+  - go get github.com/smartystreets/goconvey/convey
