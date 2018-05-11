@@ -1,4 +1,5 @@
-# checkword
+# checkword 
+- [![Build Status](https://travis-ci.com/midoks/checkword.svg?branch=master)](https://travis-ci.com/midoks/checkword)
 
 敏感词检测功能,可以自动添加新词
 
