@@ -1,9 +1,10 @@
 package routers
 
 import (
+	"net/http"
+
 	"github.com/astaxie/beego"
 	"github.com/midoks/checkword/app/controllers"
-	"net/http"
 )
 
 func page_not_found(rw http.ResponseWriter, r *http.Request) {
