@@ -1,12 +1,14 @@
 package libs
 
 import (
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/logs"
-	"github.com/fsnotify/fsnotify"
 	"os"
 	"os/exec"
 	"strings"
+
+	"github.com/astaxie/beego"
+	"github.com/beego/beego/v2/core/logs"
+
+	"github.com/fsnotify/fsnotify"
 )
 
 var (
@@ -15,7 +17,7 @@ var (
 
 func Init() {
 
-	logs.SetLogger("file", `{"filename":"logs/ck.log"}`)
+	logs.SetLogger(logs.AdapterFile, `{"filename":"ck.log"}`)
 
 	path, _ := os.Getwd()
 	path = path + "/" + beego.AppConfig.String("word_dir") + "/"
