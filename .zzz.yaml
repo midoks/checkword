@@ -17,7 +17,8 @@ action:
   - go mod tidy
   - go mod vendor
   after:
-  - echo "zzz end"
+  - ps -ef|grep 'checkword'| grep -v grep | awk '{print $2}' | xargs kill -9
+  - ./checkword &
   exit:
-  - echo "exit"
+  - ps -ef|grep 'checkword'| grep -v grep | awk '{print $2}' | xargs kill -9
 link: https://github.com/midoks/zzz
