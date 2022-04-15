@@ -6,16 +6,10 @@ import (
 	"github.com/urfave/cli"
 
 	"github.com/midoks/checkword/internal/cmd"
-	// "github.com/midoks/checkword/internal/conf"
 )
 
 const Version = "0.0.2"
 const AppName = "checkword"
-
-// func init() {
-// 	conf.App.Version = Version
-// 	conf.App.Name = AppName
-// }
 
 func main() {
 
