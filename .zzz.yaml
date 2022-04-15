@@ -8,6 +8,7 @@ dirfilter:
 - vendor
 - logs
 - templates
+- words
 ext:
 - go
 enablerun: true
@@ -22,4 +23,5 @@ action:
   exit:
   - ps -ef|grep './checkword service'| grep -v grep
   - ps -ef|grep './checkword service'| grep -v grep | awk '{print $2}' | xargs kill -9
+  - rm -rf ./checkword
 link: https://github.com/midoks/zzz
