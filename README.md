@@ -5,7 +5,7 @@
 
 # API接口
 
-- xxx.com/v1/index/check
+- xxx.com/index/check
 ```
 POST
 {
