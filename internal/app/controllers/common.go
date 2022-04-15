@@ -2,9 +2,10 @@ package controllers
 
 import (
 	"fmt"
-	"github.com/astaxie/beego"
 	"strings"
 	"time"
+
+	"github.com/astaxie/beego"
 )
 
 const (

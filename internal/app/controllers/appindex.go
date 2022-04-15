@@ -5,7 +5,8 @@ import (
 	// "fmt"
 	_ "github.com/astaxie/beego"
 	_ "github.com/astaxie/beego/logs"
-	"github.com/midoks/checkword/app/libs"
+
+	"github.com/midoks/checkword/internal/app/libs"
 )
 
 type IndexController struct {
@@ -21,7 +22,7 @@ type IndexController struct {
 
 func (this *IndexController) Index() {
 	out := make(map[string]interface{})
-	out["web"] = "http://midoks.cacheche.com"
+	out["web"] = "https://www.cacheche.com"
 	out["mail"] = "midoks@163.com"
 	this.retJson(out)
 }

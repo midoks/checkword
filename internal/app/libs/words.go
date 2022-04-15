@@ -1,10 +1,11 @@
 package libs
 
 import (
-	"github.com/astaxie/beego/logs"
 	"io/ioutil"
 	"os"
 	"strings"
+
+	"github.com/astaxie/beego/logs"
 )
 
 const (

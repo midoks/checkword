@@ -4,11 +4,12 @@ import (
 	"net/http"
 
 	"github.com/astaxie/beego"
-	"github.com/midoks/checkword/app/controllers"
+
+	"github.com/midoks/checkword/internal/app/controllers"
 )
 
-func page_not_found(rw http.ResponseWriter, r *http.Request) {
-	rw.Write([]byte("page not found"))
+func page_not_found(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("page not found"))
 }
 
 func init() {
